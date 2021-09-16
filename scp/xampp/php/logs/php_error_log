@@ -1,0 +1,174 @@
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_bz2.dll' - \xampp\php\ext/php_bz2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_curl.dll' - \xampp\php\ext/php_curl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_mbstring.dll' - \xampp\php\ext/php_mbstring.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_exif.dll' - \xampp\php\ext/php_exif.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_gd2.dll' - \xampp\php\ext/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_gettext.dll' - \xampp\php\ext/php_gettext.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_mysql.dll' - \xampp\php\ext/php_mysql.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_mysqli.dll' - \xampp\php\ext/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_openssl.dll' - \xampp\php\ext/php_openssl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_mysql.dll' - \xampp\php\ext/php_pdo_mysql.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_oci.dll' - \xampp\php\ext/php_pdo_oci.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_odbc.dll' - \xampp\php\ext/php_pdo_odbc.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_sqlite.dll' - \xampp\php\ext/php_pdo_sqlite.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_soap.dll' - \xampp\php\ext/php_soap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_sockets.dll' - \xampp\php\ext/php_sockets.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_sqlite3.dll' - \xampp\php\ext/php_sqlite3.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_xmlrpc.dll' - \xampp\php\ext/php_xmlrpc.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_xsl.dll' - \xampp\php\ext/php_xsl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 23:42:35 Europe/Berlin] PHP Warning:  Cannot open '\xampp\php\extras\browscap.ini' for reading in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _S() in /home2/centex27/tinova.centextecnologia.com.br/include/class.mailer.php:612
+Stack trace:
+#0 /home2/centex27/tinova.centextecnologia.com.br/include/class.mailer.php(632): Mailer->send(Array, 'osTicket Fatal ...', 'Unable to conne...', Array)
+#1 /home2/centex27/tinova.centextecnologia.com.br/bootstrap.php(316): Mailer::sendmail('admin.tinova@ce...', 'osTicket Fatal ...', 'Unable to conne...', '"osTicket Alert...')
+#2 /home2/centex27/tinova.centextecnologia.com.br/bootstrap.php(201): Bootstrap::croak('Unable to conne...')
+#3 /home2/centex27/tinova.centextecnologia.com.br/main.inc.php(28): Bootstrap::connect()
+#4 /home2/centex27/tinova.centextecnologia.com.br/scp/staff.inc.php(20): require_once('/home2/centex27...')
+#5 /home2/centex27/tinova.centextecnologia.com.br/scp/tickets.php(17): require('/home2/centex27...')
+#6 {main}
+  thrown in /home2/centex27/tinova.centextecnologia.com.br/include/class.mailer.php on line 612
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_bz2.dll' - \xampp\php\ext/php_bz2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_curl.dll' - \xampp\php\ext/php_curl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_mbstring.dll' - \xampp\php\ext/php_mbstring.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_exif.dll' - \xampp\php\ext/php_exif.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_gd2.dll' - \xampp\php\ext/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_gettext.dll' - \xampp\php\ext/php_gettext.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_mysql.dll' - \xampp\php\ext/php_mysql.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_mysqli.dll' - \xampp\php\ext/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_openssl.dll' - \xampp\php\ext/php_openssl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_mysql.dll' - \xampp\php\ext/php_pdo_mysql.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_oci.dll' - \xampp\php\ext/php_pdo_oci.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_odbc.dll' - \xampp\php\ext/php_pdo_odbc.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_sqlite.dll' - \xampp\php\ext/php_pdo_sqlite.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_soap.dll' - \xampp\php\ext/php_soap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_sockets.dll' - \xampp\php\ext/php_sockets.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_sqlite3.dll' - \xampp\php\ext/php_sqlite3.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_xmlrpc.dll' - \xampp\php\ext/php_xmlrpc.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_xsl.dll' - \xampp\php\ext/php_xsl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 23:42:35 Europe/Berlin] PHP Warning:  Cannot open '\xampp\php\extras\browscap.ini' for reading in Unknown on line 0
+[24-Jun-2020 21:42:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _S() in /home2/centex27/tinova.centextecnologia.com.br/include/class.mailer.php:612
+Stack trace:
+#0 /home2/centex27/tinova.centextecnologia.com.br/include/class.mailer.php(632): Mailer->send(Array, 'osTicket Fatal ...', 'Unable to conne...', Array)
+#1 /home2/centex27/tinova.centextecnologia.com.br/bootstrap.php(316): Mailer::sendmail('admin.tinova@ce...', 'osTicket Fatal ...', 'Unable to conne...', '"osTicket Alert...')
+#2 /home2/centex27/tinova.centextecnologia.com.br/bootstrap.php(201): Bootstrap::croak('Unable to conne...')
+#3 /home2/centex27/tinova.centextecnologia.com.br/main.inc.php(28): Bootstrap::connect()
+#4 /home2/centex27/tinova.centextecnologia.com.br/scp/staff.inc.php(20): require_once('/home2/centex27...')
+#5 /home2/centex27/tinova.centextecnologia.com.br/scp/tickets.php(17): require('/home2/centex27...')
+#6 {main}
+  thrown in /home2/centex27/tinova.centextecnologia.com.br/include/class.mailer.php on line 612
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_bz2.dll' - \xampp\php\ext/php_bz2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_curl.dll' - \xampp\php\ext/php_curl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_mbstring.dll' - \xampp\php\ext/php_mbstring.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_exif.dll' - \xampp\php\ext/php_exif.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_gd2.dll' - \xampp\php\ext/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_gettext.dll' - \xampp\php\ext/php_gettext.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_mysql.dll' - \xampp\php\ext/php_mysql.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_mysqli.dll' - \xampp\php\ext/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_openssl.dll' - \xampp\php\ext/php_openssl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_mysql.dll' - \xampp\php\ext/php_pdo_mysql.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_oci.dll' - \xampp\php\ext/php_pdo_oci.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_odbc.dll' - \xampp\php\ext/php_pdo_odbc.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_sqlite.dll' - \xampp\php\ext/php_pdo_sqlite.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_soap.dll' - \xampp\php\ext/php_soap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_sockets.dll' - \xampp\php\ext/php_sockets.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_sqlite3.dll' - \xampp\php\ext/php_sqlite3.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_xmlrpc.dll' - \xampp\php\ext/php_xmlrpc.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_xsl.dll' - \xampp\php\ext/php_xsl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 23:42:51 Europe/Berlin] PHP Warning:  Cannot open '\xampp\php\extras\browscap.ini' for reading in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _S() in /home2/centex27/tinova.centextecnologia.com.br/include/class.mailer.php:612
+Stack trace:
+#0 /home2/centex27/tinova.centextecnologia.com.br/include/class.mailer.php(632): Mailer->send(Array, 'osTicket Fatal ...', 'Unable to conne...', Array)
+#1 /home2/centex27/tinova.centextecnologia.com.br/bootstrap.php(316): Mailer::sendmail('admin.tinova@ce...', 'osTicket Fatal ...', 'Unable to conne...', '"osTicket Alert...')
+#2 /home2/centex27/tinova.centextecnologia.com.br/bootstrap.php(201): Bootstrap::croak('Unable to conne...')
+#3 /home2/centex27/tinova.centextecnologia.com.br/main.inc.php(28): Bootstrap::connect()
+#4 /home2/centex27/tinova.centextecnologia.com.br/scp/staff.inc.php(20): require_once('/home2/centex27...')
+#5 /home2/centex27/tinova.centextecnologia.com.br/scp/tickets.php(17): require('/home2/centex27...')
+#6 {main}
+  thrown in /home2/centex27/tinova.centextecnologia.com.br/include/class.mailer.php on line 612
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_bz2.dll' - \xampp\php\ext/php_bz2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_curl.dll' - \xampp\php\ext/php_curl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_mbstring.dll' - \xampp\php\ext/php_mbstring.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_exif.dll' - \xampp\php\ext/php_exif.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_gd2.dll' - \xampp\php\ext/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_gettext.dll' - \xampp\php\ext/php_gettext.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_mysql.dll' - \xampp\php\ext/php_mysql.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_mysqli.dll' - \xampp\php\ext/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_openssl.dll' - \xampp\php\ext/php_openssl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_mysql.dll' - \xampp\php\ext/php_pdo_mysql.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_oci.dll' - \xampp\php\ext/php_pdo_oci.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_odbc.dll' - \xampp\php\ext/php_pdo_odbc.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_sqlite.dll' - \xampp\php\ext/php_pdo_sqlite.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_soap.dll' - \xampp\php\ext/php_soap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_sockets.dll' - \xampp\php\ext/php_sockets.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_sqlite3.dll' - \xampp\php\ext/php_sqlite3.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_xmlrpc.dll' - \xampp\php\ext/php_xmlrpc.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:42:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_xsl.dll' - \xampp\php\ext/php_xsl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 23:42:51 Europe/Berlin] PHP Warning:  Cannot open '\xampp\php\extras\browscap.ini' for reading in Unknown on line 0
+[24-Jun-2020 21:42:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _S() in /home2/centex27/tinova.centextecnologia.com.br/include/class.mailer.php:612
+Stack trace:
+#0 /home2/centex27/tinova.centextecnologia.com.br/include/class.mailer.php(632): Mailer->send(Array, 'osTicket Fatal ...', 'Unable to conne...', Array)
+#1 /home2/centex27/tinova.centextecnologia.com.br/bootstrap.php(316): Mailer::sendmail('admin.tinova@ce...', 'osTicket Fatal ...', 'Unable to conne...', '"osTicket Alert...')
+#2 /home2/centex27/tinova.centextecnologia.com.br/bootstrap.php(201): Bootstrap::croak('Unable to conne...')
+#3 /home2/centex27/tinova.centextecnologia.com.br/main.inc.php(28): Bootstrap::connect()
+#4 /home2/centex27/tinova.centextecnologia.com.br/scp/staff.inc.php(20): require_once('/home2/centex27...')
+#5 /home2/centex27/tinova.centextecnologia.com.br/scp/tickets.php(17): require('/home2/centex27...')
+#6 {main}
+  thrown in /home2/centex27/tinova.centextecnologia.com.br/include/class.mailer.php on line 612
+[24-Jun-2020 21:43:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_bz2.dll' - \xampp\php\ext/php_bz2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_curl.dll' - \xampp\php\ext/php_curl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_mbstring.dll' - \xampp\php\ext/php_mbstring.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_exif.dll' - \xampp\php\ext/php_exif.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_gd2.dll' - \xampp\php\ext/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_gettext.dll' - \xampp\php\ext/php_gettext.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_mysql.dll' - \xampp\php\ext/php_mysql.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_mysqli.dll' - \xampp\php\ext/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_openssl.dll' - \xampp\php\ext/php_openssl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_mysql.dll' - \xampp\php\ext/php_pdo_mysql.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_oci.dll' - \xampp\php\ext/php_pdo_oci.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_odbc.dll' - \xampp\php\ext/php_pdo_odbc.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_sqlite.dll' - \xampp\php\ext/php_pdo_sqlite.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_soap.dll' - \xampp\php\ext/php_soap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_sockets.dll' - \xampp\php\ext/php_sockets.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_sqlite3.dll' - \xampp\php\ext/php_sqlite3.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_xmlrpc.dll' - \xampp\php\ext/php_xmlrpc.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_xsl.dll' - \xampp\php\ext/php_xsl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 23:43:07 Europe/Berlin] PHP Warning:  Cannot open '\xampp\php\extras\browscap.ini' for reading in Unknown on line 0
+[24-Jun-2020 21:43:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _S() in /home2/centex27/tinova.centextecnologia.com.br/include/class.mailer.php:612
+Stack trace:
+#0 /home2/centex27/tinova.centextecnologia.com.br/include/class.mailer.php(632): Mailer->send(Array, 'osTicket Fatal ...', 'Unable to conne...', Array)
+#1 /home2/centex27/tinova.centextecnologia.com.br/bootstrap.php(316): Mailer::sendmail('admin.tinova@ce...', 'osTicket Fatal ...', 'Unable to conne...', '"osTicket Alert...')
+#2 /home2/centex27/tinova.centextecnologia.com.br/bootstrap.php(201): Bootstrap::croak('Unable to conne...')
+#3 /home2/centex27/tinova.centextecnologia.com.br/main.inc.php(28): Bootstrap::connect()
+#4 /home2/centex27/tinova.centextecnologia.com.br/scp/staff.inc.php(20): require_once('/home2/centex27...')
+#5 /home2/centex27/tinova.centextecnologia.com.br/scp/tickets.php(17): require('/home2/centex27...')
+#6 {main}
+  thrown in /home2/centex27/tinova.centextecnologia.com.br/include/class.mailer.php on line 612
+[24-Jun-2020 21:43:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_bz2.dll' - \xampp\php\ext/php_bz2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_curl.dll' - \xampp\php\ext/php_curl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_mbstring.dll' - \xampp\php\ext/php_mbstring.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_exif.dll' - \xampp\php\ext/php_exif.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_gd2.dll' - \xampp\php\ext/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_gettext.dll' - \xampp\php\ext/php_gettext.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_mysql.dll' - \xampp\php\ext/php_mysql.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_mysqli.dll' - \xampp\php\ext/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_openssl.dll' - \xampp\php\ext/php_openssl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_mysql.dll' - \xampp\php\ext/php_pdo_mysql.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_oci.dll' - \xampp\php\ext/php_pdo_oci.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_odbc.dll' - \xampp\php\ext/php_pdo_odbc.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_pdo_sqlite.dll' - \xampp\php\ext/php_pdo_sqlite.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_soap.dll' - \xampp\php\ext/php_soap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_sockets.dll' - \xampp\php\ext/php_sockets.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_sqlite3.dll' - \xampp\php\ext/php_sqlite3.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_xmlrpc.dll' - \xampp\php\ext/php_xmlrpc.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 21:43:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '\xampp\php\ext/php_xsl.dll' - \xampp\php\ext/php_xsl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Jun-2020 23:43:08 Europe/Berlin] PHP Warning:  Cannot open '\xampp\php\extras\browscap.ini' for reading in Unknown on line 0
+[24-Jun-2020 21:43:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _S() in /home2/centex27/tinova.centextecnologia.com.br/include/class.mailer.php:612
+Stack trace:
+#0 /home2/centex27/tinova.centextecnologia.com.br/include/class.mailer.php(632): Mailer->send(Array, 'osTicket Fatal ...', 'Unable to conne...', Array)
+#1 /home2/centex27/tinova.centextecnologia.com.br/bootstrap.php(316): Mailer::sendmail('admin.tinova@ce...', 'osTicket Fatal ...', 'Unable to conne...', '"osTicket Alert...')
+#2 /home2/centex27/tinova.centextecnologia.com.br/bootstrap.php(201): Bootstrap::croak('Unable to conne...')
+#3 /home2/centex27/tinova.centextecnologia.com.br/main.inc.php(28): Bootstrap::connect()
+#4 /home2/centex27/tinova.centextecnologia.com.br/scp/staff.inc.php(20): require_once('/home2/centex27...')
+#5 /home2/centex27/tinova.centextecnologia.com.br/scp/tickets.php(17): require('/home2/centex27...')
+#6 {main}
+  thrown in /home2/centex27/tinova.centextecnologia.com.br/include/class.mailer.php on line 612

@@ -1,0 +1,6 @@
+[31-Aug-2021 13:57:04 America/Fortaleza] PHP Warning:  require(client.inc.php): failed to open stream: No such file or directory in /home2/centex27/tinova.centextecnologia.com.br/apps/dispatcher.php on line 23
+[31-Aug-2021 13:57:04 America/Fortaleza] PHP Warning:  require(client.inc.php): failed to open stream: No such file or directory in /home2/centex27/tinova.centextecnologia.com.br/apps/dispatcher.php on line 23
+[31-Aug-2021 13:57:04 America/Fortaleza] PHP Fatal error:  require(): Failed opening required 'client.inc.php' (include_path='.:/opt/php71/lib/php') in /home2/centex27/tinova.centextecnologia.com.br/apps/dispatcher.php on line 23
+[05-Sep-2021 21:54:10 America/Fortaleza] PHP Warning:  require(client.inc.php): failed to open stream: No such file or directory in /home2/centex27/tinova.centextecnologia.com.br/apps/dispatcher.php on line 23
+[05-Sep-2021 21:54:10 America/Fortaleza] PHP Warning:  require(client.inc.php): failed to open stream: No such file or directory in /home2/centex27/tinova.centextecnologia.com.br/apps/dispatcher.php on line 23
+[05-Sep-2021 21:54:10 America/Fortaleza] PHP Fatal error:  require(): Failed opening required 'client.inc.php' (include_path='.:/opt/php71/lib/php') in /home2/centex27/tinova.centextecnologia.com.br/apps/dispatcher.php on line 23
